@@ -9,9 +9,11 @@ html,body{
 #iphone-container{
 	width: 375px;
 	height: 806px;
-	margin: 40px auto;
+	margin: -403px auto 40px -187px;
 	background: url('../img/iphone.png');
-	position: relative;
+	position: absolute;
+	top: 50%;
+	left: 50%;
 }
 #iphone-preview{
 	position: absolute;

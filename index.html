@@ -1,11 +1,16 @@
 <html>
 <head>
-	<title>Preview of our mobile web-app</title>
+	<title>EPA Reporting App Preview</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+  <script>
+  window.addEventListener('load', function () {
+    App = window['iphone-preview'].window;
+  }, false);
+  </script>
 </head>
 <body>
 	<div id="iphone-container">
-		<iframe src="http://dev.sencha.com/deploy/touch/examples/production/oreilly/" frameborder="0" id="iphone-preview" scrolling="no"></iframe>
+		<iframe src="/" frameborder="0" id="iphone-preview" scrolling="no"></iframe>
 	</div>
 </body>
 </html>
